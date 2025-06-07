@@ -26,8 +26,10 @@ python3 -m venv venv
 
 # Activate the environment
 source venv/bin/activate
-
-# Install dependencies
+```
+```bash
+# Install dependencies (in venv)
+# Note: This took a while to install all of the scikit stuff
 pip install -r requirements.txt
 ```
 
