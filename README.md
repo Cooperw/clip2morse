@@ -11,6 +11,7 @@ Useful in CTFs, security research, and signal analysis where information is enco
 2. [Troubleshooting](#troubleshooting)
 3. [General Algorithm](#general-algorithm)
 4. [Design Challenges](#design-challenges)
+5. [Resource Links](#resource-links)
 
 ## Quick Start
 
@@ -202,3 +203,13 @@ To solve this, we use **KMeans clustering** to automatically adapt to each clipâ
 - **OFF durations** are clustered into `intra-symbol`, `letter`, and `word` gaps.
 
 This makes decoding **robust and automatic**, even when the source signal is noisy or non-standard. It removes the need for calibration, letting the script intelligently interpret Morse from real-world video signals.
+
+## Resource Links
+
+[FlashLight SOS Example Video](https://www.youtube.com/watch?v=k8m8R4x0Mgk)
+
+[CyberChef Morse Calculator](https://gchq.github.io/CyberChef/#recipe=To_Morse_Code('-/.','Space','Forward%20slash')From_Morse_Code('Space','Forward%20slash'/disabled)&input=U09TIFNPUw&ieol=CRLF)
+
+[Beginner K-Means Clustering w/ Python](https://medium.com/@amit25173/k-means-clustering-for-dummies-a-beginners-guide-399fb8c427fd)
+
+[Morse Flashlight iOS App](https://apps.apple.com/us/app/flashlight-morse-utility/id386426585)
